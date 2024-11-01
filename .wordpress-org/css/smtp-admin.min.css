@@ -1,0 +1,449 @@
+#wpcontent {
+    padding-left: 0 !important;
+    position: relative
+}
+@media (max-width: 320px) {
+    #wpcontent {
+        padding-top: 46px
+    }
+}
+@media (max-width: 320px) {
+    #wpbody {
+        padding-top: 0
+    }
+}
+#wop-wordpress-smtp-mail-header {
+    background-color: #115371;
+  
+    padding: 20px
+}
+#wop-wordpress-smtp-mail-header img {
+    display: block;
+    margin: 0;
+  
+}
+@media (max-width: 768px) {
+    #wop-wordpress-smtp-mail-header img {
+        max-width: 200px
+    }
+}
+#wop-wordpress-smtp-mail {
+    margin: 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page-title {
+    background-color: #fff;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+    padding: 0 20px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page-title a {
+    border-bottom: 2px solid #fff;
+    box-shadow: none;
+    color: #666;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 20px 0 18px 0;
+    text-decoration: none
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page-title a.active {
+   border-bottom: 2px solid rgba(30,140,190,.8);
+    background-color: #808080;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page-title a:hover {
+    border-color: #999
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page {
+    padding: 0 20px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page *,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page *::before,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-clear:before {
+    content: " ";
+    display: table
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-clear:after {
+    clear: both;
+    content: " ";
+    display: table
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 1.3
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row:first-of-type {
+    padding-top: 10px !important
+}
+@media (max-width: 767px) {
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row {
+        padding: 20px 0
+    }
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.inactive {
+    display: none
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.section-heading {
+    padding: 20px 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.section-heading.no-desc h2,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.section-heading.no-desc h4 {
+    margin: 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.section-heading .wop-wordpress-smtp-mail-setting-field {
+    margin: 0;
+    max-width: 1000px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox input[type=checkbox] {
+    float: left;
+    margin: 1px 0 0 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox input[type=checkbox]+label {
+    margin: 0 0 0 8px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox .desc {
+    margin: 0 0 0 30px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox input[type=checkbox]+label+.desc {
+    margin: 8px 0 0 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-text .wop-wordpress-smtp-mail-setting-label,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-password .wop-wordpress-smtp-mail-setting-label,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-number .wop-wordpress-smtp-mail-setting-label,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-email .wop-wordpress-smtp-mail-setting-label {
+    padding-top: 8px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-select .wop-wordpress-smtp-mail-setting-label {
+    padding-top: 8px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-radio .wop-wordpress-smtp-mail-setting-field input[type=radio] {
+    margin: -3px 10px 0 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-radio .wop-wordpress-smtp-mail-setting-field label {
+    margin-right: 30px;
+    display: inline-block
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field label {
+    vertical-align: middle;
+    display: inline-block
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field label:hover .wop-wordpress-smtp-mail-setting-toggle-switch {
+    background-color: #999
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field input[type=checkbox] {
+    display: none
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field input[type=checkbox]:checked+.wop-wordpress-smtp-mail-setting-toggle-switch {
+    background-color: #83c11f
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field input[type=checkbox]:checked+.wop-wordpress-smtp-mail-setting-toggle-switch:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px)
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field input[type=checkbox]:checked+.wop-wordpress-smtp-mail-setting-toggle-switch+.wop-wordpress-smtp-mail-setting-toggle-checked-label {
+    display: inline-block
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field input[type=checkbox]:checked+.wop-wordpress-smtp-mail-setting-toggle-switch+.wop-wordpress-smtp-mail-setting-toggle-checked-label+.wop-wordpress-smtp-mail-setting-toggle-unchecked-label {
+    display: none
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field .wop-wordpress-smtp-mail-setting-toggle-unchecked-label,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field .wop-wordpress-smtp-mail-setting-toggle-checked-label {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field .wop-wordpress-smtp-mail-setting-toggle-checked-label {
+    display: none
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field .wop-wordpress-smtp-mail-setting-toggle-switch {
+    position: relative;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 15px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    width: 40px;
+    height: 20px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-checkbox-toggle .wop-wordpress-smtp-mail-setting-field .wop-wordpress-smtp-mail-setting-toggle-switch:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    top: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer {
+    padding-bottom: 20px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer:last-child {
+    margin-right: 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer .wop-wordpress-smtp-mail-mailer-image {
+    background: #fff;
+    text-align: center;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    height: 76px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer .wop-wordpress-smtp-mail-mailer-image img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer.active .wop-wordpress-smtp-mail-mailer-image {
+    border-color: #FF982D
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer.active .wop-wordpress-smtp-mail-mailer-image img {
+    opacity: 1
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer:hover .wop-wordpress-smtp-mail-mailer-image {
+    border-color: #ccc
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row.wop-wordpress-smtp-mail-setting-row-mailer .wop-wordpress-smtp-mail-mailer:hover .wop-wordpress-smtp-mail-mailer-image img {
+    opacity: 1
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row h2,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row h4 {
+    color: #444;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 6px 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row h3 {
+    color: #444;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 20px 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row p {
+    margin: 12px 0 0;
+    font-size: 14px;
+    line-height: 1.3
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row p:first-of-type {
+    margin: 8px 0 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row p.desc {
+    font-style: italic;
+    color: #666
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=text],
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=email],
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=number],
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=password] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 12px;
+    margin: 0 10px 0 0;
+    width: 400px;
+    min-height: 35px
+}
+@media (max-width: 1023px) {
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=text],
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=email],
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=number],
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=password] {
+        width: 300px
+    }
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=text][readonly],
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=email][readonly],
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=number][readonly],
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=password][readonly] {
+    background-color: #f9f9f9
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=text].small-text,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=email].small-text,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=number].small-text,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=password].small-text {
+    width: 75px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=text]:focus,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=email]:focus,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=number]:focus,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=password]:focus {
+    border-color: #bbb
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=text]:disabled,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=email]:disabled,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=number]:disabled,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-row input[type=password]:disabled {
+    opacity: 0.6
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-label {
+    display: block;
+    float: left;
+    width: 200px;
+    padding: 0
+}
+@media (max-width: 767px) {
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-label {
+        float: none;
+        width: 100%;
+        padding-bottom: 15px
+    }
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-label label {
+    display: block;
+    font-weight: 600
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-field {
+    display: block;
+    margin: 0 0 0 200px;
+    max-width: 800px
+}
+@media (max-width: 767px) {
+    #wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-setting-field {
+        margin: 0
+    }
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page p.wop-wordpress-smtp-mail-submit {
+    margin: 0;
+    padding: 25px 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-mailer-options .wop-wordpress-smtp-mail-mailer-option .wop-wordpress-smtp-mail-setting-row.section-heading {
+    padding: 20px 0 !important
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-mailer-options .wop-wordpress-smtp-mail-mailer-option blockquote {
+    background: #E5E5E5;
+    border-radius: 4px;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+    padding: 15px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn {
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-shadow: none;
+    box-shadow: none;
+    outline: none
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-block {
+    display: block
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-md {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    min-height: 35px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-lg {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 28px
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-orange {
+background-color: #555d66;
+    border-color: #FF982D;
+    color: #fff;
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-orange:hover,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-orange:active,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-orange:focus {
+       background-color: rgba(30,140,190,.8);
+    border-color: rgba(30,140,190,.8);
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-grey {
+    background-color: #eee;
+    border-color: #ccc;
+    color: #666
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-grey:hover,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-grey:active,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-grey:focus {
+    background-color: #d7d7d7;
+    border-color: #ccc;
+    color: #444
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-light-grey {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color: #666
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-light-grey:hover,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-light-grey:active,
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .wop-wordpress-smtp-mail-btn-light-grey:focus {
+    background-color: #eee;
+    color: #444
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page p {
+    margin: 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page .notice p {
+    margin: 0.5em 0
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page pre {
+    white-space: pre-line
+}
+#wop-wordpress-smtp-mail .wop-wordpress-smtp-mail-page.active {
+    display: block
+}
+.mailto{
+	
+	    float: right;
+    background-color: #808080;
+    color: #fff;
+    padding: 10px;
+    margin-top: -68px;
+    text-decoration: none;
+}
